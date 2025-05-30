@@ -37,7 +37,7 @@ for more details. The two scripts not used for simulating trees are:
 This script extract the barcode saturation status from the simulated character
 matrices. The aggregated output from this script is stored in Simulated_data/stats
 
-###Scripts/Rscripts/infer_for_each_CM_file.R
+### Scripts/Rscripts/infer_for_each_CM_file.R
 This script generates the empirical trees using the MaxCut algorithm in the folders
 in Empirical_data/ from the character matrix files.
 
