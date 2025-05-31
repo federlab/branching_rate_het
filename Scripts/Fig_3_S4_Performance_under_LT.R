@@ -46,7 +46,8 @@ fig3a.panels = lapply(c("CRH","DRH"),function(mdl){
           panel.grid = element_line(color="grey",linetype = "dotted"),
           axis.line = element_line(),plot.margin=unit(c(1,1,1,1),units = "points"),
           axis.title = element_text(size=10),
-          axis.text = element_text(size=8,angle=30))
+          axis.text = element_text(size=8),
+          axis.text.x = element_text(angle=30))
   if(mdl=="CRH") this.panel = this.panel+theme(axis.title.x = element_blank())
   return(this.panel)
 })

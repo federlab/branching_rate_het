@@ -82,7 +82,8 @@ fig1b.panels = lapply(c("J1","Sackin"),function(mm){
     xlab("Strength of rate\nheterogeneity")+ylab(parse(text=c(J1="J^1",Sackin="Sackin~~index")[mm]))+
     theme(legend.position = "bottom",
           axis.title = element_text(size=10),
-          axis.text = element_text(size=8,angle=30),
+          axis.text = element_text(size=8),
+          axis.text.x = element_text(angle=30),
           legend.text = element_text(size = 8),
           legend.title = element_text(size=8,lineheight = 0.75),
           legend.key.height = unit(5,units="points"),
@@ -171,7 +172,8 @@ fig1d.panels = ggplot(fig1.power.data)+
   xlab("Strength of rate\nheterogeneity")+ylab("Power")+
   theme(legend.position = "bottom",
         axis.title = element_text(size=10),
-        axis.text = element_text(size=8,angle=30),
+        axis.text = element_text(size=8),
+        axis.text.x = element_text(angle=30),
         legend.text = element_text(size = 8),
         legend.title = element_text(size=8,lineheight = 0.75),
         legend.title.position = "left",
