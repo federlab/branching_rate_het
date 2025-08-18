@@ -125,7 +125,7 @@ python simulate_genealogical_trees.py -N 1000000 -n 50 250 1250 -i 10 -o NULL
 mv NULL_N6250_n6250.nwk NULL_N31250_n31250.nwk NULL_N1000000_n1000000.nwk full_trees_not_in_use 
 ```
 
-Note that NULL_N1000000_n1000000.nwk can be huge, especially with more replicates.
+Note that `NULL_N1000000_n1000000.nwk` can be huge, especially with more replicates.
 
 Then we simulate lineage tracing trees:
 
